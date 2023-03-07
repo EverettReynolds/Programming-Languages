@@ -1,0 +1,76 @@
+V "GNAT Lib v4.8"
+M P W=b
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_DEFAULT_INITIALIZATION
+RV SPARK
+
+U myreader%b		myreader.adb		cd68da90 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.io_exceptions%s	a-ioexce.ads		a-ioexce.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20121213103024 3ffc8e18
+D a-except.ads		20121213103024 10fcae55
+D a-finali.ads		20121213103024 52ecdc1b
+D a-ioexce.ads		20121213103029 8b9de6cd
+D a-stream.ads		20121213103024 2ca4ee37
+D a-tags.ads		20121213103024 6c0509d0
+D a-textio.ads		20130106093217 386df5d4
+D a-unccon.ads		20121213103024 f9eb8f06
+D interfac.ads		20121213103024 129923ea
+D i-cstrea.ads		20130106093208 3286f6aa
+D myreader.adb		20210928152028 7e98c989
+D system.ads		20121213103024 90249111
+D s-crtl.ads		20130106093200 1ea48bce
+D s-exctab.ads		20121213103029 66e51330
+D s-ficobl.ads		20121213103029 55a71d43
+D s-finmas.ads		20121213103024 b95bb341
+D s-finroo.ads		20121213103024 4ff27390
+D s-parame.ads		20121213103024 b6e20cc0
+D s-pooglo.ads		20121213103024 542f33d0
+D s-soflin.ads		20121213103024 24c8153c
+D s-stache.ads		20121213103024 596fc1b4
+D s-stalib.ads		20130106093355 f78bcf95
+D s-stoele.ads		20121213103024 facd7d98
+D s-stoele.adb		20121213103024 afc5dc80
+D s-stopoo.ads		20121213103024 7b8fbeee
+D s-traent.ads		20121213103024 5221ee41
+D s-unstyp.ads		20121213103024 6ae15c76
+D s-wchcon.ads		20121213103024 bfeb2e3d
+X 1 ada.ads
+16K9*Ada 19e8 11|1r6 2r5 3r6 4r5 8r15 15r5 15r48 18r15 19r9 24r14 24r45 28r10
+. 30r10
+X 4 a-ioexce.ads
+18K13*IO_Exceptions 30e22 11|3w10 4r9 24r18
+26X4*End_Error 11|24r32
+X 7 a-textio.ads
+49K13*Text_IO 471e16 11|1w10 2r9 8r19 15r9 15r52 18r19 19r13 24r49 28r14
+. 30r14
+52P9*File_Type(369R9) 11|8r27
+53n23*In_File{53E9} 11|15r60
+92U14*Open 11|15s17
+93p7 File{52P9} 11|15r23
+94e7 Mode{53E9} 11|15r40
+95s7 Name{string} 11|15r69
+98U14*Close 11|24s57
+98p22 File{52P9} 11|24r64
+166U14*New_Line 11|30s22
+183V13*End_Of_File{boolean} 11|18s27
+205U14*Get 11|19s21
+205p19 File{52P9} 11|19r26
+205e37 Item{character} 11|19r43
+208U14*Put 11|28s22
+208e19 Item{character} 11|28r27
+X 11 myreader.adb
+6U11*myreader 6b11 31l10 31t18
+8p5 In_File{7|52P9} 15m31 15r31 18r39 19r34 24m72 24r72
+9e5 value{character} 19m51 21r30
+10a5 string_array(character) 21m9 28r35
+11i5 pos{integer} 17m5 20m9 20r16 21r22 27r17
+27i9 i{integer} 28r48
+
